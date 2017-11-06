@@ -1,0 +1,26 @@
+{
+	"tiles": {
+		"sky": {
+			"type": "sky",
+			"sprite": [0, 0],
+		},
+		"ground": {
+			"type": "block",
+			"sprite": [1, 0],
+		},
+		"animatedBlock": {
+			"type": "block",
+			"animation": {
+				"speed": 12,
+				"frames": [
+					[2, 0],
+					[3, 0],
+					[4, 0],
+				]
+			},
+		},
+	},
+	"patterns": {
+		
+	},
+}

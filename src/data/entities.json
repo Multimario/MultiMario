@@ -1,0 +1,30 @@
+{
+	"Player": {
+		"name": "Player",
+		"image": "entities.png",
+		"size": [16, 16],
+		"offset": [0, 0],
+		"animations": {
+			"still": {
+				"speed": 0,
+				"frames": [
+					[0, 0],
+				],
+			},
+			"run": {
+				"speed": 30,
+				"frames": [
+					[16, 0],
+					[32, 0],
+					[48, 0],
+				],
+			},
+			"jump": {
+				"speed": 1,
+				"frames": [
+					[64, 0],
+				],
+			},
+		}
+	},
+}
